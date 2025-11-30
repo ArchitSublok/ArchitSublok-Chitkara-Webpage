@@ -107,7 +107,7 @@ nav{
 .course{
     margin-left: 25vw;
     margin-right: 25vw; 
-    float: left;
+    /* float: left; */
     display: grid;
     grid-template-columns: 310px 310px 310px 310px;
     grid-template-rows: 150px 150px 150px ;
@@ -256,3 +256,18 @@ nav{
 }
 
 /* the code of grid end here */
+
+/* from here th ecode of 2026 calender will start*/
+
+.maincal{
+    width:50vw;
+    height:50vh;
+    background-color: beige;
+}
+
+.calender{
+    width:40vw;
+    height:50vh;
+    background-color: antiquewhite;
+    float: left;
+}
