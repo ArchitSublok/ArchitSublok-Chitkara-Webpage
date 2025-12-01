@@ -260,14 +260,44 @@ nav{
 /* from here th ecode of 2026 calender will start*/
 
 .maincal{
-    width:50vw;
-    height:50vh;
+    margin-left: 25vw;
+     width:50vw;
+    height:50vh; 
     background-color: beige;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
 }
 
 .calender{
+    /* display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;/ */
     width:40vw;
     height:50vh;
     background-color: antiquewhite;
     float: left;
+    /* margin-top: 30px;
+    margin-left: 20px; */
+}
+/* .calender_content{
+    margin-top: 30px;
+    margin-left: 20px; 
+} */
+
+.calender_grid{
+    display: grid;
+    grid-template-columns: 25vw;
+    grid-template-rows: 10vh;
+
+}
+
+
+
+
+
+
+
+.form{
+    background-color: aliceblue;
 }
