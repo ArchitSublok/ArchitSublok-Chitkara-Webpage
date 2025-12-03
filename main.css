@@ -262,44 +262,19 @@ nav{
 /* from here th ecode of 2026 calender will start*/
 
 .maincal{
-    margin-left: 25vw;
-    width:50vw;
-    height:65vh; 
-    background-color: beige;
+
+    background-color: rgb(238, 11, 49);
     display: flex;
-    justify-content: space-between ;
-    /* align-items: center; */
+    align-items: center;
+    justify-content: center;
 }
 
 .calender{
-    /* display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;/ */
-    width:30vw;
-    height:65vh;
+    width:50vw;
+    height:67vh;
     background-color: antiquewhite;
     float: left;
-    /* margin-top: 30px;
-    margin-left: 20px; */
 }
-
-/* .calender_grid{
-    margin-left: 30px;
-     margin-top: 20px;
-    display: grid;
-    grid-template-columns: 25vw*2;
-    grid-template-rows: 10vh*8;
-
-} */
-
-/* .calender_content{
-
-    margin-left: 30px;
-    margin-top: 20px;
-    display: grid;
-    grid-template-columns: 25vw 25vw;
-    grid-template-rows: 10vh 10vh 10vh 10vh 10vh 10vh 10vh 10vh;
-} */
 
 .calender_content{
     display: grid;
@@ -307,17 +282,18 @@ nav{
     grid-template-rows:5vh 5vh 5vh 5vh 5vh 5vh 5vh 5vh 5vh 5vh  ;
     margin-left: 20px;
     row-gap: 9px;
+    float:left;
     
 }
 
 
-
-
-
-
-
 .form{
-    background-color: aliceblue;
-    width: 10vw;
-    max-height: 50vh;
+    float: right;
+    width:20vw;
+    height:10vh;
+    background-color: black;
 }
+
+
+
+
