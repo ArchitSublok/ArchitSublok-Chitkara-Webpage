@@ -105,9 +105,11 @@ nav{
 /* below is the styling of the main grid that tells about gap length and all */
 
 .course{
-    margin-left: 25vw;
-    margin-right: 25vw; 
+    /* margin-left: 25vw;
+    margin-right: 25vw;  */
     /* float: left; */
+    display: flex;
+    justify-content: center;
     display: grid;
     grid-template-columns: 310px 310px 310px 310px;
     grid-template-rows: 150px 150px 150px ;
@@ -261,35 +263,51 @@ nav{
 
 .maincal{
     margin-left: 25vw;
-     width:50vw;
-    height:50vh; 
+    width:50vw;
+    height:65vh; 
     background-color: beige;
     display: flex;
-    justify-content: center ;
-    align-items: center;
+    justify-content: space-between ;
+    /* align-items: center; */
 }
 
 .calender{
     /* display: flex;
     justify-content: flex-end;
     align-items: flex-end;/ */
-    width:40vw;
-    height:50vh;
+    width:30vw;
+    height:65vh;
     background-color: antiquewhite;
     float: left;
     /* margin-top: 30px;
     margin-left: 20px; */
 }
-/* .calender_content{
-    margin-top: 30px;
-    margin-left: 20px; 
+
+/* .calender_grid{
+    margin-left: 30px;
+     margin-top: 20px;
+    display: grid;
+    grid-template-columns: 25vw*2;
+    grid-template-rows: 10vh*8;
+
 } */
 
-.calender_grid{
-    display: grid;
-    grid-template-columns: 25vw;
-    grid-template-rows: 10vh;
+/* .calender_content{
 
+    margin-left: 30px;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 25vw 25vw;
+    grid-template-rows: 10vh 10vh 10vh 10vh 10vh 10vh 10vh 10vh;
+} */
+
+.calender_content{
+    display: grid;
+    grid-template-columns:15vw 15vw ;
+    grid-template-rows:5vh 5vh 5vh 5vh 5vh 5vh 5vh 5vh 5vh 5vh  ;
+    margin-left: 20px;
+    row-gap: 9px;
+    
 }
 
 
@@ -300,4 +318,6 @@ nav{
 
 .form{
     background-color: aliceblue;
+    width: 10vw;
+    max-height: 50vh;
 }
