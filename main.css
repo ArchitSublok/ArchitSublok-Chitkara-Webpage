@@ -261,38 +261,58 @@ nav{
 
 /* from here th ecode of 2026 calender will start*/
 
-.maincal{
+/* .maincal{
 
     background-color: rgb(238, 11, 49);
     display: flex;
     align-items: center;
     justify-content: center;
+} */
+
+.options{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
 }
 
 .calender{
-    width:50vw;
-    height:67vh;
-    background-color: antiquewhite;
+    width:65vw;
+    height:61vh;
+    background-color: rgb(130, 153, 155);
     float: left;
 }
 
 .calender_content{
     display: grid;
-    grid-template-columns:15vw 15vw ;
+    grid-template-columns:32.5vw 32.5vw ;
     grid-template-rows:5vh 5vh 5vh 5vh 5vh 5vh 5vh 5vh 5vh 5vh  ;
     margin-left: 20px;
-    row-gap: 9px;
+    column-gap: 45px;
+    row-gap: 6px;
     float:left;
+    font-size: 23px;
     
 }
 
+.global{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(60, 255, 0);
+    margin-left: 17vw;
+    margin-right: 17vw;
 
-.form{
-    float: right;
-    width:20vw;
-    height:10vh;
-    background-color: black;
 }
+
+.global_lines{
+    display: flex;
+    justify-content: flex-end;
+    /* float: left; */
+
+}
+
+
+
 
 
 
