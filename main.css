@@ -333,10 +333,152 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
+.companies{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.open_grid{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    display: grid;
+    grid-template-columns:10vw 10vw 10vw 10vw 10vw 10vw 10vw 10vw ;
+    grid-template-rows: 12vh 12vh 12vh 12vh;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
 
+#accenture{
+    background-image: url("OIP.webp");
+}
+
+#adani{
+    background-image: url("OIP.webp");
+}
+
+#ADITYA_BIRLA_GROUP{
+    background-image: url("OIP.webp");
+}
+
+#Adobe{
+    background-image: url("OIP.webp");
+}
+
+#airtel{
+    background-image: url("OIP.webp");
+}
+
+#amazon{
+    background-image: url("OIP.webp");
+}
+
+#Deloitte{
+    background-image: url("OIP.webp");
+}
+
+#DLF{
+    background-image: url("OIP.webp");
+}
+
+#EY{
+    background-image: url("OIP.webp");
+}
+
+#Fortis{
+    background-image: url("OIP.webp");
+}
+
+#Godrej{
+    background-image: url("OIP.webp");
+}
+
+#Google{
+    background-image: url("OIP.webp");
+}
+
+#gsk{
+    background-image: url("OIP.webp");
+}
+
+#HDFC_BANK{
+    background-image: url("OIP.webp");
+}
+
+#Hero{
+    background-image: url("OIP.webp");
+}
+
+#IBM{
+    background-image: url("OIP.webp");
+}
+
+#Infosys{
+    background-image: url("OIP.webp");
+}
+
+#ITC_L_m_ted{
+    background-image: url("OIP.webp");
+}
+
+#KPMG{
+    background-image: url("OIP.webp");
+}
+
+#LT{
+    background-image: url("OIP.webp");
+}
+
+#mahindraRise{
+    background-image: url("OIP.webp");
+}
+
+#Marriott{
+    background-image: url("OIP.webp");
+}
+
+#Microsoft{
+    background-image: url("OIP.webp");
+}
+
+#Network18{
+    background-image: url("OIP.webp");
+}
+
+#Pfizer{
+    background-image: url("OIP.webp");
+}
+
+#pwc{
+    background-image: url("OIP.webp");
+}
+
+#Reliance{
+    background-image: url("OIP.webp");
+}
+
+#SAMSUNG{
+    background-image: url("OIP.webp");
+}
+
+#TATA{
+    background-image: url("OIP.webp");
+}
+
+#wipro{
+    background-image: url("OIP.webp");
+}
+
+#WNS{
+    background-image: url("OIP.webp");
+}
+
+#zomato{
+    background-image: url("OIP.webp");
+}
 
 
 
