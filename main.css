@@ -305,6 +305,7 @@ nav{
 }
 
 .global_lines{
+    width:65vw;
     background-color: aqua;
     display: flex;
     justify-content: flex-start;
@@ -318,7 +319,22 @@ nav{
     gap:5px;
 }
 
+.global_grid{
+    background-color: blue;
+    display: grid;
+    grid-template-columns: 16.2vw 16.2vw 16.2vw 16.2vw;
+    grid-template-rows: 50vh;
+    column-gap: 30px;
+    
+}
 
+.open_doors{
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
 
 
 
