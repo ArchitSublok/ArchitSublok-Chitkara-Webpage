@@ -481,15 +481,31 @@ nav{
 }
 
 footer{
+    height: 100vh;
     background-color: black;
     color: white;
     width:100vw;
     display: flex;
     justify-content: center;
+    align-items: center;
+
 }
 
 footer.admission{
     display: flex;
     flex-direction: column;
+    gap:5px;
 }
+
+footer.imp_info{
+    display: flex;
+    flex-direction: column;
+}
+
+footer.explore{
+    display: flex;
+    flex-direction: column;
+}
+
+
 
