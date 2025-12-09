@@ -480,5 +480,16 @@ nav{
     background-image: url("OIP.webp");
 }
 
+footer{
+    background-color: black;
+    color: white;
+    width:100vw;
+    display: flex;
+    justify-content: center;
+}
 
+footer.admission{
+    display: flex;
+    flex-direction: column;
+}
 
