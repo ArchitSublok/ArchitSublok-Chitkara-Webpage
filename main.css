@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
 }
-nav{
+/* nav{
     background-color: antiquewhite;
     display: flex;
     justify-content: space-between;
@@ -12,7 +12,7 @@ nav{
 .right-menu{
     display: flex;
     /* flex-wrap: wrap; */
-}
+/* }
 .right-menu-upper{
     display: flex;
     gap:10px;
@@ -36,7 +36,52 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
+} */ 
+
+header{
+    background-color: rgb(145, 91, 20);
+    display: flex;
+    justify-content: flex-end;
+    height:3vh;
 }
+
+header .head{
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+header #apply_now{
+    background-color: brown;
+    width:5vw;
+    display: flex;
+    justify-content: center;
+}
+
+header #admission_helpline{
+     background-color: brown;
+     width: 7vw;
+     display: flex;
+    justify-content: center;
+
+}
+
+nav{
+    display: flex;
+    justify-content:space-between ;
+
+}
+
+nav .nav_content{
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+}
+
+
+
+
+
 /* below is the styling of the slide show */
 .slides{
     width: 100%;
