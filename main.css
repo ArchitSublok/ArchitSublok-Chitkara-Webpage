@@ -481,28 +481,32 @@ nav{
 }
 
 footer{
-    height: 100vh;
+    /* margin-top: 100px; */
+    height: auto;
     background-color: black;
     color: white;
     width:100vw;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 
 }
 
 footer.admission{
+    /* margin-top: 100px; */
     display: flex;
     flex-direction: column;
     gap:5px;
 }
 
 footer.imp_info{
+    /* margin-top: 100px; */
     display: flex;
     flex-direction: column;
 }
 
 footer.explore{
+    /* margin-top: 100px; */
     display: flex;
     flex-direction: column;
 }
