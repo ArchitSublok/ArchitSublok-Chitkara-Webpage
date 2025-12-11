@@ -492,6 +492,30 @@ footer{
 
 }
 
+/* footer #image{
+     display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+footer img{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; 
+
+
+} */
+
+footer .location{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 20px;
+    float: left;
+
+
+}
+
 footer.admission{
     /* margin-top: 100px; */
     display: flex;
