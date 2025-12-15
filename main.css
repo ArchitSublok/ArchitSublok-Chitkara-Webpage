@@ -2,6 +2,9 @@
     padding: 0;
     margin: 0;
 }
+body{
+    background-color: #f4f4f4;
+}
 /* nav{
     background-color: antiquewhite;
     display: flex;
@@ -39,7 +42,7 @@
 } */ 
 
 header{
-    background-color: rgb(145, 91, 20);
+    background-color: #f4f4f4;
     display: flex;
     justify-content: flex-end;
     height:3vh;
@@ -53,14 +56,14 @@ header .head{
 }
 
 header #apply_now{
-    background-color: brown;
+    background-color: red;
     width:5vw;
     display: flex;
     justify-content: center;
 }
 
 header #admission_helpline{
-     background-color: brown;
+     background-color: red;
      width: 7vw;
      display: flex;
     justify-content: center;
@@ -144,8 +147,9 @@ nav .nav_content{
 /* one line styling */
 .path{
     display: flex;
-    margin-left: 25vw;
+    margin-left: 16vw;
     font-size: 50px;
+    justify-content: flex-start;
 }
 
 
@@ -358,9 +362,9 @@ nav .nav_content{
 }
 
 .calender{
-    width:65vw;
+    width:67vw;
     height:61vh;
-    background-color: rgb(130, 153, 155);
+    background-color: rgb(249, 234, 203);
     float: left;
 }
 
@@ -387,7 +391,7 @@ nav .nav_content{
 
 .global_lines{
     width:65vw;
-    background-color: aqua;
+    /* background-color: ; */
     display: flex;
     justify-content: flex-start;
     align-items: space-evenly;
@@ -401,20 +405,83 @@ nav .nav_content{
 }
 
 .global_grid{
-    background-color: blue;
+    background-color: grey;
     display: grid;
     grid-template-columns: 16.2vw 16.2vw 16.2vw 16.2vw;
     grid-template-rows: 50vh;
-    column-gap: 30px;
+    /* column-gap: 30px; */
+    column-gap: 10px;
+    
+}
+
+.grid_1{
+    background-image: url("OIP.webp");
+    object-fit: fill;
+
+}
+
+.grid_2{
+     background-image: url("OIP.webp");
+    object-fit: fill;
+    
+}
+
+.grid_3{
+     background-image: url("OIP.webp");
+    object-fit: fill;
+    
+}
+
+.grid_4{
+     background-image: url("OIP.webp");
+    object-fit: fill;
     
 }
 
 .open_doors{
     background-color: bisque;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
 }
+
+.open_doors .doors_lines .line_1{
+    background-color: bisque;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    font-size: 25px;
+
+}
+
+.open_doors .doors_lines .line_2{
+    background-color: bisque;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    font-size: 20px;
+
+}
+
+.line_3{
+    background-color: bisque;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    font-size: 20px;
+
+}
+
+.line_4{
+    background-color: bisque;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    font-size: 20px;
+
+}
+
+
 
 .companies{
     display: flex;
