@@ -5,41 +5,7 @@
 body{
     background-color: #f4f4f4;
 }
-/* nav{
-    background-color: antiquewhite;
-    display: flex;
-    justify-content: space-between;
-}
-.logo{
-}
-.right-menu{
-    display: flex;
-    /* flex-wrap: wrap; */
-/* }
-.right-menu-upper{
-    display: flex;
-    gap:10px;
-    justify-content: flex-end;
-    align-items: flex-start;
-    margin-top: 5px;
-    ;
-}
-.apply_now{
-    width:9rem;
-    height: 1.9rem;
-    background-color: red;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.admission_helpline{
-    width: 15rem;
-    height: 1.9rem;
-    background-color: red;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */ 
+ 
 
 header{
     background-color: #f4f4f4;
@@ -93,7 +59,7 @@ nav .nav_content{
 .slides{
     width: 100%;
     height: 700px;
-    background-color: lightgray;
+    background-image: url("https://www.chitkara.edu.in/wp-content/themes/chitkara/images/2025/home-page/slider/Banner-1.webp");
 }
 
 /* code end here */
@@ -145,6 +111,10 @@ nav .nav_content{
 /* the code of paragraph ends here */
 
 /* one line styling */
+
+/* .end.pic1{
+    background-image: url("https://www.chitkara.edu.in/wp-content/themes/chitkara/images/2025/home-page/rankings/naac-ranking.png");
+} */
 .path{
     display: flex;
     margin-left: 16vw;
@@ -415,25 +385,25 @@ nav .nav_content{
 }
 
 .grid_1{
-    background-image: url("OIP.webp");
+    background-image: url("https://www.chitkara.edu.in/wp-content/themes/chitkara/images/2025/home-page/webp/Joint-Doctoral-Program-desk.webp");
     object-fit: fill;
 
 }
 
 .grid_2{
-     background-image: url("OIP.webp");
+    background-image: url("OIP.webp");
     object-fit: fill;
     
 }
 
 .grid_3{
-     background-image: url("OIP.webp");
+    background-image: url("OIP.webp");
     object-fit: fill;
     
 }
 
 .grid_4{
-     background-image: url("OIP.webp");
+    background-image: url("OIP.webp");
     object-fit: fill;
     
 }
